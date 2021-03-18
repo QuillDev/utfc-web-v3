@@ -1,0 +1,15 @@
+.hud-element{
+    @apply inline-block text-center;
+}
+
+.effective {
+    @apply text-green-600;
+}
+.ineffective {
+    @apply text-red-600;
+}
+
+.hud-element-emblem {
+    @apply w-8;
+    image-rendering: crisp-edges;
+}

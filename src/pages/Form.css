@@ -1,0 +1,33 @@
+.inputField {
+    @apply 
+    text-black
+    inline-block
+    pl-1 pr-1
+    w-1/2;
+    box-shadow: 0rem 0 0 0 black,
+    .25rem 0 0 0 black,
+    0 -.25rem 0 0 black,
+    0 .25rem 0 0 black;
+}
+.inputLabel {
+    @apply bg-dark-dark pr-1 pl-1 inline-block w-2/12;
+    box-shadow: -.25rem 0 0 0 black,
+    0 0 0 0 black,
+    0 -.25rem 0 0 black,
+    0 .25rem 0 0 black;
+}
+.submitButton {
+    @apply bg-dark-dark pl-2 pr-2  w-1/2;
+    box-shadow: -.25rem 0 0 0 black,
+    .25rem 0 0 0 black,
+    0 -.25rem 0 0 black,
+    0 .25rem 0 0 black;
+}
+
+.pixelInputContainer {
+    @apply pt-2 pb-2;
+}
+
+.formContainer {
+    @apply rounded-sm bg-gray-600 m-auto p-4 w-1/2 block text-center;
+}

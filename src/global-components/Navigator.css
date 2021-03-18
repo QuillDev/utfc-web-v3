@@ -1,0 +1,14 @@
+.navButton {
+    @apply inline-block pl-2 pr-2 border-b-2 border-black;
+}
+.navButton:hover {
+    @apply border-red-600 border-b-2
+}
+
+.navigationBar {
+    @apply bg-black flex;
+}
+
+.navRight {
+    @apply ml-auto;
+}

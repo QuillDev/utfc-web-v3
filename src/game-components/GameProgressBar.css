@@ -1,0 +1,27 @@
+.container {
+    @apply w-11/12 m-auto;
+    text-align: right;
+}
+
+.health-bar {
+    @apply rounded box-border h-3 relative w-full mb-1.5 mt-1.5;
+}
+
+.bar {
+    @apply h-full w-full;
+    transition: width 0.2s linear;
+
+}
+
+
+.bar-wrapper {
+    @apply absolute inset-y-0 right-0 w-full;
+    box-shadow:-.25rem 0 0 0 black,
+    .25rem 0 0 0 black,
+    0 -.25rem 0 0 black,
+    0 .25rem 0 0 black;
+}
+.hit {
+    @apply absolute inset-y-0 right-0 w-0;
+    transition: width 0.5s linear;
+}

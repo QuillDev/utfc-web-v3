@@ -1,0 +1,13 @@
+mutation createSocketUser($socketId: String!){
+  createSocketUser(socketId: $socketId){
+    email
+    xp
+    xpNeeded
+    coins
+    level
+    damage
+    mobHP
+    mobMaxHP
+    socketId
+  }
+}
